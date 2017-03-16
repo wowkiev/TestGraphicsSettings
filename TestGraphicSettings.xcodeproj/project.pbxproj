@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		999769551E79618D00B5CC4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769541E79618D00B5CC4A /* main.cpp */; };
+		9997695D1E7961D700B5CC4A /* SettingsEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997695B1E7961D700B5CC4A /* SettingsEditor.cpp */; };
+		999769611E796BD800B5CC4A /* Setting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997695F1E796BD800B5CC4A /* Setting.cpp */; };
+		999769641E796E2C00B5CC4A /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769621E796E2C00B5CC4A /* Command.cpp */; };
+		999769671E79A76D00B5CC4A /* CustomSettingsHandlers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769651E79A76D00B5CC4A /* CustomSettingsHandlers.cpp */; };
+		999769721E7AB7B700B5CC4A /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997696C1E7AB7B700B5CC4A /* tinystr.cpp */; };
+		999769731E7AB7B700B5CC4A /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997696E1E7AB7B700B5CC4A /* tinyxml.cpp */; };
+		999769741E7AB7B700B5CC4A /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769701E7AB7B700B5CC4A /* tinyxmlerror.cpp */; };
+		999769751E7AB7B700B5CC4A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769711E7AB7B700B5CC4A /* tinyxmlparser.cpp */; };
+		999769781E7AB83500B5CC4A /* BaseSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769761E7AB83500B5CC4A /* BaseSerializer.cpp */; };
+		9997697B1E7AB91600B5CC4A /* XMLSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769791E7AB91600B5CC4A /* XMLSerializer.cpp */; };
+		9997697E1E7AC11800B5CC4A /* History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997697C1E7AC11800B5CC4A /* History.cpp */; };
+		999769811E7AEAD600B5CC4A /* SettingsDb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997697F1E7AEAD600B5CC4A /* SettingsDb.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9997694F1E79618D00B5CC4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		999769511E79618D00B5CC4A /* TestGraphicSettings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestGraphicSettings; sourceTree = BUILT_PRODUCTS_DIR; };
+		999769541E79618D00B5CC4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9997695B1E7961D700B5CC4A /* SettingsEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingsEditor.cpp; sourceTree = "<group>"; };
+		9997695C1E7961D700B5CC4A /* SettingsEditor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SettingsEditor.hpp; sourceTree = "<group>"; };
+		9997695E1E79685C00B5CC4A /* Common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
+		9997695F1E796BD800B5CC4A /* Setting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Setting.cpp; sourceTree = "<group>"; };
+		999769601E796BD800B5CC4A /* Setting.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Setting.hpp; sourceTree = "<group>"; };
+		999769621E796E2C00B5CC4A /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		999769631E796E2C00B5CC4A /* Command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
+		999769651E79A76D00B5CC4A /* CustomSettingsHandlers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomSettingsHandlers.cpp; sourceTree = "<group>"; };
+		999769661E79A76D00B5CC4A /* CustomSettingsHandlers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CustomSettingsHandlers.hpp; sourceTree = "<group>"; };
+		9997696C1E7AB7B700B5CC4A /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = tinyxml/tinystr.cpp; sourceTree = "<group>"; };
+		9997696D1E7AB7B700B5CC4A /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = tinyxml/tinystr.h; sourceTree = "<group>"; };
+		9997696E1E7AB7B700B5CC4A /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = tinyxml/tinyxml.cpp; sourceTree = "<group>"; };
+		9997696F1E7AB7B700B5CC4A /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = tinyxml/tinyxml.h; sourceTree = "<group>"; };
+		999769701E7AB7B700B5CC4A /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = tinyxml/tinyxmlerror.cpp; sourceTree = "<group>"; };
+		999769711E7AB7B700B5CC4A /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = tinyxml/tinyxmlparser.cpp; sourceTree = "<group>"; };
+		999769761E7AB83500B5CC4A /* BaseSerializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseSerializer.cpp; sourceTree = "<group>"; };
+		999769771E7AB83500B5CC4A /* BaseSerializer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseSerializer.hpp; sourceTree = "<group>"; };
+		999769791E7AB91600B5CC4A /* XMLSerializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLSerializer.cpp; sourceTree = "<group>"; };
+		9997697A1E7AB91600B5CC4A /* XMLSerializer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = XMLSerializer.hpp; sourceTree = "<group>"; };
+		9997697C1E7AC11800B5CC4A /* History.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = History.cpp; sourceTree = "<group>"; };
+		9997697D1E7AC11800B5CC4A /* History.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = History.hpp; sourceTree = "<group>"; };
+		9997697F1E7AEAD600B5CC4A /* SettingsDb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingsDb.cpp; sourceTree = "<group>"; };
+		999769801E7AEAD600B5CC4A /* SettingsDb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SettingsDb.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9997694E1E79618D00B5CC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		999769481E79618D00B5CC4A = {
+			isa = PBXGroup;
+			children = (
+				999769531E79618D00B5CC4A /* TestGraphicSettings */,
+				999769521E79618D00B5CC4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		999769521E79618D00B5CC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				999769511E79618D00B5CC4A /* TestGraphicSettings */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		999769531E79618D00B5CC4A /* TestGraphicSettings */ = {
+			isa = PBXGroup;
+			children = (
+				9997696B1E7AB7A000B5CC4A /* tinyxml */,
+				999769541E79618D00B5CC4A /* main.cpp */,
+				9997695B1E7961D700B5CC4A /* SettingsEditor.cpp */,
+				9997695C1E7961D700B5CC4A /* SettingsEditor.hpp */,
+				9997695E1E79685C00B5CC4A /* Common.hpp */,
+				9997695F1E796BD800B5CC4A /* Setting.cpp */,
+				999769601E796BD800B5CC4A /* Setting.hpp */,
+				999769621E796E2C00B5CC4A /* Command.cpp */,
+				999769631E796E2C00B5CC4A /* Command.hpp */,
+				999769651E79A76D00B5CC4A /* CustomSettingsHandlers.cpp */,
+				999769661E79A76D00B5CC4A /* CustomSettingsHandlers.hpp */,
+				999769761E7AB83500B5CC4A /* BaseSerializer.cpp */,
+				999769771E7AB83500B5CC4A /* BaseSerializer.hpp */,
+				999769791E7AB91600B5CC4A /* XMLSerializer.cpp */,
+				9997697A1E7AB91600B5CC4A /* XMLSerializer.hpp */,
+				9997697C1E7AC11800B5CC4A /* History.cpp */,
+				9997697D1E7AC11800B5CC4A /* History.hpp */,
+				9997697F1E7AEAD600B5CC4A /* SettingsDb.cpp */,
+				999769801E7AEAD600B5CC4A /* SettingsDb.hpp */,
+			);
+			path = TestGraphicSettings;
+			sourceTree = "<group>";
+		};
+		9997696B1E7AB7A000B5CC4A /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				9997696C1E7AB7B700B5CC4A /* tinystr.cpp */,
+				9997696D1E7AB7B700B5CC4A /* tinystr.h */,
+				9997696E1E7AB7B700B5CC4A /* tinyxml.cpp */,
+				9997696F1E7AB7B700B5CC4A /* tinyxml.h */,
+				999769701E7AB7B700B5CC4A /* tinyxmlerror.cpp */,
+				999769711E7AB7B700B5CC4A /* tinyxmlparser.cpp */,
+			);
+			name = tinyxml;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		999769501E79618D00B5CC4A /* TestGraphicSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999769581E79618D00B5CC4A /* Build configuration list for PBXNativeTarget "TestGraphicSettings" */;
+			buildPhases = (
+				9997694D1E79618D00B5CC4A /* Sources */,
+				9997694E1E79618D00B5CC4A /* Frameworks */,
+				9997694F1E79618D00B5CC4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGraphicSettings;
+			productName = TestGraphicSettings;
+			productReference = 999769511E79618D00B5CC4A /* TestGraphicSettings */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		999769491E79618D00B5CC4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Volodymyr Dyachenko";
+				TargetAttributes = {
+					999769501E79618D00B5CC4A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9997694C1E79618D00B5CC4A /* Build configuration list for PBXProject "TestGraphicSettings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 999769481E79618D00B5CC4A;
+			productRefGroup = 999769521E79618D00B5CC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				999769501E79618D00B5CC4A /* TestGraphicSettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9997694D1E79618D00B5CC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999769741E7AB7B700B5CC4A /* tinyxmlerror.cpp in Sources */,
+				999769751E7AB7B700B5CC4A /* tinyxmlparser.cpp in Sources */,
+				999769551E79618D00B5CC4A /* main.cpp in Sources */,
+				999769721E7AB7B700B5CC4A /* tinystr.cpp in Sources */,
+				9997697B1E7AB91600B5CC4A /* XMLSerializer.cpp in Sources */,
+				999769611E796BD800B5CC4A /* Setting.cpp in Sources */,
+				9997697E1E7AC11800B5CC4A /* History.cpp in Sources */,
+				9997695D1E7961D700B5CC4A /* SettingsEditor.cpp in Sources */,
+				999769811E7AEAD600B5CC4A /* SettingsDb.cpp in Sources */,
+				999769781E7AB83500B5CC4A /* BaseSerializer.cpp in Sources */,
+				999769731E7AB7B700B5CC4A /* tinyxml.cpp in Sources */,
+				999769641E796E2C00B5CC4A /* Command.cpp in Sources */,
+				999769671E79A76D00B5CC4A /* CustomSettingsHandlers.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		999769561E79618D00B5CC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		999769571E79618D00B5CC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		999769591E79618D00B5CC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9997695A1E79618D00B5CC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9997694C1E79618D00B5CC4A /* Build configuration list for PBXProject "TestGraphicSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999769561E79618D00B5CC4A /* Debug */,
+				999769571E79618D00B5CC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999769581E79618D00B5CC4A /* Build configuration list for PBXNativeTarget "TestGraphicSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999769591E79618D00B5CC4A /* Debug */,
+				9997695A1E79618D00B5CC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 999769491E79618D00B5CC4A /* Project object */;
+}
