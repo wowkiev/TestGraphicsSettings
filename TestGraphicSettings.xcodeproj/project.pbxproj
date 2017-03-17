@@ -10,7 +10,6 @@
 		999769551E79618D00B5CC4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769541E79618D00B5CC4A /* main.cpp */; };
 		9997695D1E7961D700B5CC4A /* SettingsEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997695B1E7961D700B5CC4A /* SettingsEditor.cpp */; };
 		999769611E796BD800B5CC4A /* Setting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997695F1E796BD800B5CC4A /* Setting.cpp */; };
-		999769641E796E2C00B5CC4A /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769621E796E2C00B5CC4A /* Command.cpp */; };
 		999769671E79A76D00B5CC4A /* CustomSettingsHandlers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999769651E79A76D00B5CC4A /* CustomSettingsHandlers.cpp */; };
 		999769721E7AB7B700B5CC4A /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997696C1E7AB7B700B5CC4A /* tinystr.cpp */; };
 		999769731E7AB7B700B5CC4A /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9997696E1E7AB7B700B5CC4A /* tinyxml.cpp */; };
@@ -42,8 +41,6 @@
 		9997695E1E79685C00B5CC4A /* Common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
 		9997695F1E796BD800B5CC4A /* Setting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Setting.cpp; sourceTree = "<group>"; };
 		999769601E796BD800B5CC4A /* Setting.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Setting.hpp; sourceTree = "<group>"; };
-		999769621E796E2C00B5CC4A /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
-		999769631E796E2C00B5CC4A /* Command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
 		999769651E79A76D00B5CC4A /* CustomSettingsHandlers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomSettingsHandlers.cpp; sourceTree = "<group>"; };
 		999769661E79A76D00B5CC4A /* CustomSettingsHandlers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CustomSettingsHandlers.hpp; sourceTree = "<group>"; };
 		9997696C1E7AB7B700B5CC4A /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = tinyxml/tinystr.cpp; sourceTree = "<group>"; };
@@ -99,8 +96,6 @@
 				9997695E1E79685C00B5CC4A /* Common.hpp */,
 				9997695F1E796BD800B5CC4A /* Setting.cpp */,
 				999769601E796BD800B5CC4A /* Setting.hpp */,
-				999769621E796E2C00B5CC4A /* Command.cpp */,
-				999769631E796E2C00B5CC4A /* Command.hpp */,
 				999769651E79A76D00B5CC4A /* CustomSettingsHandlers.cpp */,
 				999769661E79A76D00B5CC4A /* CustomSettingsHandlers.hpp */,
 				999769761E7AB83500B5CC4A /* BaseSerializer.cpp */,
@@ -196,7 +191,6 @@
 				999769811E7AEAD600B5CC4A /* SettingsDb.cpp in Sources */,
 				999769781E7AB83500B5CC4A /* BaseSerializer.cpp in Sources */,
 				999769731E7AB7B700B5CC4A /* tinyxml.cpp in Sources */,
-				999769641E796E2C00B5CC4A /* Command.cpp in Sources */,
 				999769671E79A76D00B5CC4A /* CustomSettingsHandlers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +318,7 @@
 				9997695A1E79618D00B5CC4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
